@@ -1,0 +1,30 @@
+CRITICAL - 2022-09-03 13:25:45 --> Invalid file: UserController.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UserController.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('UserController', [], true)
+ 3 APPPATH/Controllers/UserController.php(9): view('UserController')
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\UserController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-03 14:33:20 --> Invalid file: dashboard/profile.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/profile.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('dashboard/profile', [], true)
+ 3 APPPATH/Controllers/UserController.php(16): view('dashboard/profile', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-03 15:37:54 --> Invalid file: dashboard/contacts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/contacts.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('dashboard/contacts', [], true)
+ 3 APPPATH/Controllers/UserController.php(28): view('dashboard/contacts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\UserController->contacts()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
